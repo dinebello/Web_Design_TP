@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire 1</title>
+        <link rel="stylesheet" href="style_formulaire.css">
+    </head>
+    <body>
+        <form method="post" action="traitement.php">
+            <fieldset>
+                <legend>Coordonnees</legend>
+                <label for="name">Quel est votre Nom ? <br><input type="text" name="name" class="input-group" required autocapitalize="on"></label><br>
+                <label for="surname">Quel est votre Prenom ? <br><input type="text" name="surname" class="input-group" required></label><br>
+                <label for="mail">Quel est votre mail ? <br><input type="email" name="mail" class="input-group" required></label><br>
+            </fieldset>
+            <fieldset>
+                <label for="wish"></label>
+                <legend>Souhait</legend>
+                <p>Si vous aviez le pouvoir de faire exaucer l'un de vos veux , lequel serait-il ????</p>
+                <input type="radio" name="wish" class="choice" required>Etre Riche
+                <input type="radio" name="wish" class="choice" required>Etre Celebre
+                <input type="radio" name="wish" class="choice" required>Etre <strong>encore </strong> plus intelligent
+                <br><p><input type="radio" name="wish" required>Autre</p>
+                <p>Si Autre Veillez le decrire dans le champ ci dessous</p>
+                <textarea name="description" id="description" cols="50" rows="8"></textarea>
+            </fieldset>
+            <section class="buttons">
+                <button type="submit">Enregistrer</button>
+            </section>
+            
+        </form>
+    </body>
+</html>

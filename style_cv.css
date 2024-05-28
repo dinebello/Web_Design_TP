@@ -1,0 +1,68 @@
+h1{
+    font-size: 40px; 
+    font-family: Arial, monospace, Georgia, Times, 'Times New Roman', serif;
+    text-align: end;
+    width: 100%;
+}
+nav{
+    padding: 15px 1px;
+    background-color: rgb(40, 43, 87);
+    text-align: center;
+    height: 20px;
+    margin-bottom: 0px;
+}
+#accueil, #experiences, #loisirs, #contact{
+    padding: 8px 10px;
+    margin: 0px 5%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#accueil:hover, #experiences:hover, #loisirs:hover , #contact:hover{
+    margin-top: 0px;
+    padding-top: 15px;
+    background-color:rgba(16, 43, 161, 0.6);
+    border-bottom: 5px solid rgb(6, 39, 185);
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.profil{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% 0%;
+    margin-left: 10%;
+}
+.photo_description{
+    display: flex;
+    justify-content: space-between;
+}
+.cursus_content, .atouts_niveau, .atouts_linguistiques{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+.cursus, .atouts_linguistiques{
+    width: 80%;
+    margin-left: 10%;
+}
+body{
+    background-color: aliceblue;
+}
+.shills, .mastered_level{
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#special_profil{
+    margin-right: 100%;
+}

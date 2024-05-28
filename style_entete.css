@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h3,h2,p{
+    margin: 0px;
+    text-align: center;
+}
+img{
+    height: 110px;
+    width: 110px;
+}
+body{
+    background-color:aliceblue;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
